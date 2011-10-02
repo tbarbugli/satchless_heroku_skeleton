@@ -1,0 +1,15 @@
+environment
+bin
+# Ignore all hidden files
+.*
+
+# But allow the gitignore file
+!.gitignore
+
+#pip related dirs
+build
+src
+
+# Python specific
+*.pyc
+*.pyo
